@@ -1,0 +1,13 @@
+.button{
+    background: $color-primary;
+    border-radius: .5rem;
+    padding: 1.5rem 2rem;
+    border: 0;
+    color: $color-white;
+}
+.button:hover{
+    background: $color-primary-dark;
+    border-radius: .5rem;
+    color: $color-white;
+    text-decoration: none;
+}

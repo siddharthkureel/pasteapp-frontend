@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 62.5%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+.body-wrapper{
+  min-height: 100vh;
+  margin-bottom: -5rem;
+}
+@media only screen and (max-width: 600px) {
+  body,html {
+    font-size: 50%;
+  }
+}

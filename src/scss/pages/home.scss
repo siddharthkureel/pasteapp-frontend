@@ -1,0 +1,52 @@
+.home{
+    margin-top:10rem;
+    .post-area{
+        padding: 2rem;
+        box-shadow: 0 0 10px rgb(173, 171, 171);
+        margin: 3rem 0;
+        font-size: 1.5rem;
+        display: block;
+        input,textarea{
+            width: 100%;
+            padding: 1rem;
+            margin:1rem 0;
+        }
+        .label{
+            font-weight: bold;
+        }
+        button{
+            width:100%;
+            font-size: 2rem;
+        }
+        .post-info{
+            display: flex;
+            justify-content: space-between;
+            .title-box{
+                width: 100%;
+            }
+            .post-info-A,.post-info-B{
+                display: block;
+                width: 40%;
+            }
+        }
+        .post-body{
+            white-space: pre-line;
+        }
+        .modify-container{
+            display: flex;
+            justify-content: space-between;
+            .modify-buttons{
+                display: flex;
+            }
+            .options{
+                display: flex;
+                justify-content: space-between;
+                button{
+                    background: transparent;
+                    border:0;
+                    color:$color-primary;
+                }
+            }
+        }
+    }
+}

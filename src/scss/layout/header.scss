@@ -1,0 +1,16 @@
+header{
+   font-size: 2.5rem;
+   background: $color-primary;
+   box-shadow: 3px 3px 5px 6px #ccc; 
+   a{
+     color:$color-white;
+   }
+  a:hover{
+        color:grey;
+    }
+   p{
+     margin-bottom: 0;
+     color:$color-white;
+     font-size: 2rem
+   }
+}
